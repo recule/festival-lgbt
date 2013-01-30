@@ -1,0 +1,132 @@
+/*
+Theme Name: Festival
+Theme URI: http://example.com/
+Description: Thème enfant du thème Twenty Twelve
+Author: Alexandre Reculé
+Author URI: http://example.com/about/
+Template: twentytwelve
+Version: 0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* Menu
+-------------------------------------------------------------- */
+.fg-rouge a
+{
+	color: #ff0000 !important; 
+}
+.fg-rouge a:hover
+{
+	background-color: #ff0000 !important;
+	color: black !important; 
+}
+
+
+.fg-orange a 
+{
+	color: #FE9900 !important; 
+}
+.fg-orange a:hover
+{
+	background-color: #FE9900 !important;
+	color: black !important; 
+}
+
+
+.fg-jaune a 
+{
+	color: #FDFF00 !important; 
+}
+.fg-jaune a:hover
+{
+	background-color: #FDFF00 !important; 
+	color: black!important;
+}
+
+
+.fg-vert a 
+{
+	color: #009900 !important; 
+}
+.fg-vert a:hover
+{
+	background-color: #009900 !important; 
+	color: black !important;
+}
+
+
+.fg-bleu a 
+{
+	color: #30CDFF !important; 
+}
+.fg-bleu a:hover
+{
+	background-color: #30CDFF !important; 
+	color: black !important;
+}
+
+
+.fg-violet a
+{
+	color: #CD009B !important; 
+}
+.fg-violet a:hover
+{
+	background-color: #CD009B !important; 
+	color: black !important;
+}
+
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	display: inline-block !important;
+	text-align: left;
+	width: auto !important;
+}
+
+.main-navigation li a {
+    border-bottom: 0 none;
+    color: #6A6A6A;
+    line-height: 3.69231;
+    text-align: center !important;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 125px !important;
+    margin-left: -10px;
+}
+
+
+/* Champs personnalisé
+-------------------------------------------------------------- */
+.champs-persos-label i
+{
+	font-weight: bold !important;
+}
+
+/* Slideshow
+-------------------------------------------------------------- */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: 500px;
+  float: left;
+  width: 900px;
+  border: 0;
+  }
+
