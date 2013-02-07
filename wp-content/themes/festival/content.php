@@ -78,61 +78,61 @@
 			<?php if(false === empty($realisateur)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Réalisateur(s) : </i>
-				<?php echo $realisateur ?></span>
+				<?php echo $realisateur ?></span><br/>
 			<?php endif; ?>
 			
 			<?php if(false === empty($acteurs)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Interprètes : </i>
-				<?php echo $acteurs ?></span>
+				<?php echo $acteurs ?></span><br/>
 			<?php endif; ?>
 			
 			<?php if(false === empty($annee)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Année : </i>
-				<?php echo $annee ?></span>
+				<?php echo $annee ?></span><br/>
 			<?php endif; ?>
 
 			<?php if(false === empty($genre)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Genre : </i>
-				<?php echo $genre ?></span>
+				<?php echo $genre ?></span><br/>
 			<?php endif; ?>
 
 			<?php if(false === empty($language)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Langues : </i>
-				<?php echo $language ?></span>
+				<?php echo $language ?></span><br/>
 			<?php endif; ?>
 
 			<?php if(false === empty($duree)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Durée : </i>
-				<?php echo $duree ?></span>
+				<?php echo $duree ?></span><br/>
 			<?php endif; ?>
 
 			<?php if(false === empty($prix)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Prix : </i>
-				<?php echo $prix ?></span>
+				<?php echo $prix ?></span><br/>
 			<?php endif; ?>
 
 			<?php if(false === empty($pays)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Pays : </i>
-				<?php echo $pays ?></span>
+				<?php echo $pays ?></span><br/>
 			<?php endif; ?>
 
 			<?php if(false === empty($interpretation)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>Interprétation : </i>
-				<?php echo $interpretation ?></span>
+				<?php echo $interpretation ?></span><br/>
 			<?php endif; ?>
 
 			<?php if(false === empty($titre)): ?>
 			<span class="champs-persos-item">
 				<i class=”champs-persos-label”>titre d'origine : </i>
-				<?php echo $titre ?></span>
+				<?php echo $titre ?></span><br/>
 			<?php endif; ?>
 		</div> <!-- .champs-perso -->
 

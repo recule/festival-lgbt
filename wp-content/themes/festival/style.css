@@ -10,123 +10,273 @@ Version: 0.1.0
 
 @import url("../twentytwelve/style.css");
 
+/* Police
+-------------------------------------------------------------- */
+@font-face
+{
+  font-family: 'Lobster_1.4' !important;
+  src: url("police/Lobster_1.4.otf")!important;
+}
+
+
+
 /* Menu
 -------------------------------------------------------------- */
 .fg-rouge a
 {
-	color: #ff0000 !important; 
+	background-color: #ff0000 !important; /* rouge */
+  color: #FE9900 !important;
+  font-weight: bold !important;
+  border: 2px outset black !important;
 }
 .fg-rouge a:hover
 {
-	background-color: #ff0000 !important;
-	color: black !important; 
+	background-color: #FE9900 !important; /* orange */
+	color: red !important;
+  font-weight: bold !important; 
 }
 
 
 .fg-orange a 
 {
-	color: #FE9900 !important; 
+	background-color: #FE9900 !important;
+  border: 1px black !important;
+  color: #FDFF00 !important ; 
+  font-weight: bold !important;
+  border: 2px outset black !important;
 }
 .fg-orange a:hover
 {
-	background-color: #FE9900 !important;
-	color: black !important; 
+	background-color: #FDFF00 !important;
+  color: #FE9900 !important; 
+  font-weight: bold !important;
 }
 
 
 .fg-jaune a 
 {
-	color: #FDFF00 !important; 
+	background-color: #FDFF00 !important; 
+  color: #009900 !important ;
+  font-weight: bold !important;
+  border: 2px outset black !important;
 }
 .fg-jaune a:hover
 {
-	background-color: #FDFF00 !important; 
-	color: black!important;
+	background-color: #009900 !important; 
+	color: #FDFF00 !important;
+  font-weight: bold !important;
 }
 
 
 .fg-vert a 
 {
-	color: #009900 !important; 
+	background-color: #009900 !important; 
+  color: #30CDFF !important;
+  font-weight: bold !important;
+  border: 2px outset black !important;
 }
 .fg-vert a:hover
 {
-	background-color: #009900 !important; 
-	color: black !important;
+	background-color: #30CDFF !important; 
+	color: #009900 !important;
+  font-weight: bold !important;
 }
 
 
 .fg-bleu a 
 {
-	color: #30CDFF !important; 
+	background-color: #30CDFF !important; 
+  color: #CD009B !important;
+  font-weight: bold !important;
+  border: 2px outset black !important;
 }
 .fg-bleu a:hover
 {
-	background-color: #30CDFF !important; 
-	color: black !important;
+	background-color: #CD009B !important; 
+	color: #30CDFF !important;
+  font-weight: bold !important;
 }
 
 
 .fg-violet a
 {
-	color: #CD009B !important; 
+	background-color: #CD009B !important; 
+  color: #0000FF !important;
+  font-weight: bold !important;
+  border: 2px outset black !important;
 }
 .fg-violet a:hover
 {
-	background-color: #CD009B !important; 
-	color: black !important;
+	background-color: #0000FF !important; 
+	color: #CD009B !important;
+  font-weight: bold !important;
 }
 
-.main-navigation ul.nav-menu,
-.main-navigation div.nav-menu > ul {
-	border-bottom: 1px solid #ededed;
-	border-top: 1px solid #ededed;
-	display: inline-block !important;
-	text-align: left;
-	width: auto !important;
-}
-
-.main-navigation li a {
-    border-bottom: 0 none;
-    color: #6A6A6A;
-    line-height: 3.69231;
+.main-navigation li {
     text-align: center !important;
-    text-transform: uppercase;
-    white-space: nowrap;
     width: 125px !important;
-    margin-left: -10px;
+    margin-left: -10px ;
+}
+
+.main-navigation li a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100% !important;
+    margin-left: 25px !important;
 }
 
 
 /* Champs personnalisé
--------------------------------------------------------------- */
-.champs-persos-label i
-{
-	font-weight: bold !important;
+--------------------------- ----------------------------------- */
+.champs-persos-item i{
+  font-weight: bold !important;
 }
 
 /* Slideshow
 -------------------------------------------------------------- */
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
 .rslides img {
   display: block;
-  height: 500px;
+  height: 450px;
   float: left;
   width: 900px;
   border: 0;
   }
+
+.rslides {
+    box-shadow: 0 0 20px #000000;
+    margin: 0 auto 40px;
+}
+.rslides {
+    list-style: none outside none;
+    margin: 0 auto 40px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    border-radius: 5px;
+    width: 93%;
+}
+.rslides2 {
+    box-shadow: none;
+    list-style: none outside none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.rslides_tabs {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), 0 0 5px #000000 inset;
+    font-size: 18px;
+    list-style: none outside none;
+    margin: 0 auto 50px;
+    padding: 10px 0;
+    text-align: center;
+    width: 90%;
+    border-radius: 25px;
+}
+.rslides_tabs li {
+    display: inline;
+    float: none;
+    margin-right: 1px;
+}
+.rslides_tabs a {
+    background: none repeat scroll 0 0 transparent;
+    display: inline;
+    height: auto;
+    line-height: 20px;
+    padding: 9px 20px;
+    width: auto;
+}
+.rslides_tabs a:hover {
+    border: 0 none;
+}
+.rslides_tabs li:first-child {
+    margin-left: 0;
+}
+.rslides_tabs .rslides_here a {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Site
+-------------------------------------------------------------- */
+.site{
+  border-radius: 10px;
+}
+
+body{
+  background: url("images/wallpaper.jpg") no-repeat !important;
+  background-attachment: fixed !important;
+  text-align: justify !important;
+}
+
+.site-header h1{
+  font-family: 'Lobster_1.4' !important;
+  font-size: 2.8em;
+}
+
+.site-header h2{
+  font-family: 'Lobster_1.4' !important;
+  font-size: 1.1em;
+  background: url("images/header2.png") right no-repeat !important;
+  height: 173px;
+}
+
+.widget h3{
+  font-family: 'Lobster_1.4' !important;
+  font-size: 1.1em;
+}
+
+hgroup{
+  padding-bottom: 20px;
+}
+
+#post-16,#post-14
+{
+  text-align: center;
+}
+
+/* Couleur titre infos pratiques */
+#post-5 h1{
+  color: #ff0000;
+  text-align: center;
+}
+
+/* Couleur titre infos pratiques */
+#post-11 h1{
+  color: #009900;
+  text-align: center;
+}
+
+/* Couleur titre partenaires */
+#post-14 h1{
+  color: #30CDFF;
+}
+
+/* Couleur titre remerciements */
+#post-16 h1{
+  color: #CD009B;
+}
+
+/* Widget Social
+-------------------------------------------------------------- */
+
+li#face{
+  list-style: url('images/facebook.png');
+}
+
+li#twitt{
+  list-style: url('images/Twitter.png');
+}
+
+li#space{
+  list-style: url('images/myspace.png');
+}
+
+.widget-area .widget a {
+    position: relative;
+    top: -10px;
+}
 
